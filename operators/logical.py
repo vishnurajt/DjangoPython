@@ -1,0 +1,5 @@
+print(True & False)
+print(True | False)
+print(True ^ True)
+print(2&6)
+print(2|6)
