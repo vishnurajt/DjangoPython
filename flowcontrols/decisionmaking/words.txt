@@ -1,0 +1,7 @@
+computer 
+windows 
+linux 
+android 
+apple 
+macbook 
+asus 
