@@ -1,8 +1,2 @@
-What is part of a database that holds only one type of information? ,	
-'OS' computer abbreviation usually means? ,In which decade with the first transatlantic radio broadcast occur ?,Which is a type of Electrically-Erasable Programmable Read-Only Memory?,
-The purpose of choke in tube light is? 
-:Field
-:operating system
-:1990
-:Flash
-:To increase the voltage momentarily 
+What is part of a database that holds only one type of information?Field,'OS' computer abbreviation usually means?Operating system,In which decade with the first transatlantic radio broadcast occur ?1990,Which is a type of Electrically-Erasable Programmable Read-Only Memory?Flash,The purpose of choke in tube light is?To increase the voltage momentarily  
+

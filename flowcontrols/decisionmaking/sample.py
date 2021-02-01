@@ -1,16 +1,14 @@
-
-
-#with open("ques.txt", "r") as file:
- #   allText = file.read()
-  #  quest = list(map(str, allText.split()))
-   # print(random.choice(quest))
-
 import random
-with open("words.txt") as file:
-    words = file.readlines()
-word = random.choice(words)[:]
-#print(random.choice(word))
-
+#with open("words.txt") as file:
+F = open("ques.txt", "r")
+a=random.choice(open("ques.txt","r").readline().split(","))
+b=a.split("?")
+print(b[0])
+word=b[1]
+c=len(b[1])
+#print(c)
+disp= "_ " * (c)
+print(disp)
 allowed_errors= 4
 guesses =[]
 done = False
@@ -37,4 +35,3 @@ if done:
     print(f"you found the word! it was {word}!")
 else:
     print(f"Game over!he word was {word}")
-
