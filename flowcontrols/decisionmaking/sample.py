@@ -1,9 +1,13 @@
 import random
+import pyttsx3
+engine = pyttsx3.init()
 #with open("words.txt") as file:
 F = open("ques.txt", "r")
 a=random.choice(open("ques.txt","r").readline().split(","))
 b=a.split("?")
 print(b[0])
+engine.say(b[0])
+engine.runAndWait()
 word=b[1]
 c=len(b[1])
 #print(c)
@@ -32,6 +36,10 @@ while not done:
             done=False
 
 if done:
-    print(f"you found the word! it was {word}!")
+    engine.say("you found the word!")
+    print("Word is ",word)
+    engine.runAndWait()
 else:
-    print(f"Game over!he word was {word}")
+    engine.say("Game over!he word was")
+    print("Word is ", word)
+    engine.runAndWait()
