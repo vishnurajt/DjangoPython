@@ -1,0 +1,3 @@
+[submodule "looping"]
+	path = looping
+	url = https://github.com/vishnurajt/DjangoPython.git
