@@ -12,7 +12,7 @@ while(lower<=upper):
     if(element>arr[mid]):
         lower=mid+1
     elif(element<arr[mid]):
-        upper=mid=1
+        upper=mid-1
     elif(element==arr[mid]):
         flag=1
         break
