@@ -4,4 +4,3 @@ sc=isl.values()
 lst=list(sc)
 lst.sort()
 print(lst)
-
