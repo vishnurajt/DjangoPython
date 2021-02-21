@@ -7,6 +7,7 @@ class student:
         print(self.roll)
         print(self.name)
         print(self.total)
+
 student1=student()
 student1.set_student(101,"Vishnu",495)
 student1.print_student()
