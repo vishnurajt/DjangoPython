@@ -17,9 +17,6 @@ def div(num1,num2):
 def mod(num1,num2):
     mod=num1%num2
     print("mod=",mod)
-    
-
-
 sub(30,40)
 mul(20,30)
 div(4,2)
