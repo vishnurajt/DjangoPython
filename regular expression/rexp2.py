@@ -3,9 +3,9 @@ from re import *
 # pattern='[^0-9]' #except digit
 # pattern="\s"
 # pattern="\d" #[0-9]
-# pattern="\D" #[^0-9]
+pattern="\D" #[^0-9]
 # pattern="\w" #all words
-pattern="\W"
+# pattern="\W" #special characters
 source="a@4$#@&*H_DLbbczja"
 matcher=finditer(pattern,source)
 count=0

@@ -15,7 +15,7 @@ print(hiem)
 
 exp=list(filter(lambda exp:exp["resign"]-exp["join"]>8,employees))
 print(exp)
-
+2
 
 
 
