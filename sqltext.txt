@@ -1,0 +1,3 @@
+101, vishnu, developer, 35000
+102, anandhu, tester, 36000
+103, ajith, developer, 38000
