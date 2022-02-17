@@ -1,4 +1,4 @@
-class person:
+  class person:
     def set_person(self,name,age):
         self.name=name
         self.age=age

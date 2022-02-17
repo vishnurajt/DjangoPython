@@ -29,9 +29,9 @@ players=[
 ]
 # ls=list(map(lambda players:players["name"],players))
 # print(ls)
-# rnk=list(map(lambda dict:dict["rank"],players))
+rnk=list(map(lambda a:a==12,list(map(lambda dict:dict["rank"],players))))
 # print(ls)
-# print(rnk)
+print(rnk)
 # filter
 # lst=[1,2,3,4,5,6]
 # evens=tuple(filter(lambda n:n%2==0,lst))
@@ -39,9 +39,9 @@ players=[
 #
 # greater=list(filter(lambda n:n>3,lst))
 # print(greater)
-# reduce
-grt=list(map(lambda players:players["name"],list(filter(lambda num:num["matches"]>320,players))))
-print(grt)
+#
+# grt=list(map(lambda player:player["name"],list(filter(lambda num:num["matches"]>320,players))))
+# print(grt)
 
 #print emp name whose desig = developers
 #print employee details whose exp >2 year

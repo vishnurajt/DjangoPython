@@ -6,16 +6,17 @@ employees=[
 {"name":"sravan","desig":"mrkt","salary":35000,"join":2010,"resign":2020}
 
 ]
-
-maxsal=max(list(map(lambda exp:exp["salary"],employees)))
-print(maxsal)
+#
+# maxsal=30000
+# max(map(lambda exp:exp["salary"],employees))
+# print(type(maxsal))
 
 hiem=list(filter(lambda emp:emp["salary"]==maxsal,employees))
 print(hiem)
-
+#
 exp=list(filter(lambda exp:exp["resign"]-exp["join"]>8,employees))
 print(exp)
-2
+# 2
 
 
 

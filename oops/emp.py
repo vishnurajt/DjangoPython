@@ -1,7 +1,8 @@
+from functools import reduce
 class person:
-    def __init__(self,age,name):
-        self.age=age
-        self.name=name
+    def __init__(self,age1,name1):
+        self.age=age1
+        self.name=name1
         # if self.age>25:
         #     print(self.name)
         # else:
@@ -14,7 +15,7 @@ employees=[]
 employees.append(p)
 employees.append(p1)
 employees.append(p2)
-# ag=0
+ag=0
 # for emp in employees:
 #     if emp.age>ag:
 #         ag=emp.age
@@ -22,7 +23,7 @@ employees.append(p2)
 age=[]
 for emp in employees:
     age.append(emp.age)
-print(max(age))
+# print(max(age))
 
-# mx=max(list(map(lamda emp:emp.age,employees)))
+print((reduce(lambda a,b:a if a>b else b,age)))
 

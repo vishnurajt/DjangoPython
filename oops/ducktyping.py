@@ -12,11 +12,11 @@ class seltos:
         print("seltos accelerates")
     def stop(self):
         print("seltos stop")
-class person():
+class person:
     def drive(self,car):
         car.start()
         car.accelerate()
         car.stop()
-sw=seltos()
+sw=swift()
 p=person()
 p.drive(sw)
